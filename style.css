@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  font-size: 62.5;
+
+  --bg-light: hsla(0, 0%, 100%, 1);
+  --bg-dark: hsla(240, 5%, 7%, 1);
+  --ff-timer: 'Roboto', sans-serif;
+
+
+
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 192px;
+  margin-top: 300px;
+}
+
+body .mode {
+  right: 77px;
+  display: flex;
+  position: fixed;
+  top: 60px;
+}
+
+.timerButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.timer {
+  font-size: 126.166px;
+  color: #323238;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.controls {
+  gap: 40px;
+  display: flex;
+}
+
+.controls button {
+  background-color: white;
+  border: none;
+}
+
+.mode button.ligthMode{
+  border: none;
+  background-color: white;
+}
+.mode button.darkMode{
+  border: none;
+  background: #121214;
+}
+
+
+.sounds {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.sounds :active {
+  fill: hsla(194, 97%, 31%, 1);
+
+}
+
+
+.sounds button {
+  border: none;
+
+  gap: 32.2px;
+  border-radius: 24px;
+
+}
+
+button input {
+  height: 4px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 4px/2);
+
+  background: #323238;
+  border-radius: 5px;
+}
+
+
+
+
+.hide {
+  display: none;
+  background: #02799D;
+  border-radius: 24px;
+}
+
+.button-bulk {
+
+  width: 138px;
+  height: 150px;
+  border-radius: 24px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+svg{
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+body.dark {
+  background-color: var(--bg-dark);
+}
+
+body.dark span {
+  color: white;
+}
+
+body.dark .button-bulk button {
+  background: hsla(240, 6%, 17%, 1);
+}
+body.dark .controls button {
+ border: none;
+ background: #121214;
+ fill: white;
+}
+body.dark .controls button path {
+ fill: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 90px;
+  height: 4px;
+
+  border-radius: 5px;
+  background: #323238;
+  outline: none;
+
+  position: absolute;
+  top: 122px;
+}
+
+
+/* para o Fire Fox */
+.button-bulk input::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #323238;
+  border: none;
+}
+
+/* para browsers da MS */
+.button-bulk input::-ms-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #323238;
+  border: none;
+}
+
+.button-bulk input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* remove a aparencia padão */
+  border: none;
+
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #323238;
+}
+
+
+@media (max-width: 850px)  {
+
+  main{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 181px;
+    flex-direction: column;
+  }
+
+  body .mode {
+    right:  45%;;}
+  
+}
