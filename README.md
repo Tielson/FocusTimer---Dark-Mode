@@ -22,18 +22,18 @@
 <p> Hello everyone.
            I come to show you a project created apart from figma, this project was very challenging, I read several documents, articles and the website https://developer.mozilla.org/pt-BR/ was my ally in this challenge, as it has been mine start .
 
-<a href="https://tielson.github.io/FocusTimer---Dark-Mode/"  target="_blank" >Project</a>        
+<a href="https://tielson.github.io/FocusTimer---Dark-Mode/"target="_blank" >Project</a>        
 </p>
 
 ## Technologies used
 
-- [HTML]
-- [CSS]
+- [HTML5]
+- [CSS3]
 - [Javascript]
-- clean code
-- imperative code
-- call back
-- refactoring
+ clean code
+ imperative code
+ call back
+ refactoring
 
 ## Tech Stack
 <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
