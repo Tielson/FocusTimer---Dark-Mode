@@ -22,7 +22,7 @@
 <p> Hello everyone.
            I come to show you a project created apart from figma, this project was very challenging, I read several documents, articles and the website https://developer.mozilla.org/pt-BR/ was my ally in this challenge, as it has been mine start .
 
-<a href="https://tielson.github.io/FocusTimer---Dark-Mode/"target="_blank" >Project</a>        
+<a href="https://tielson.github.io/FocusTimer---Dark-Mode/" target="_blank">Project</a>        
 </p>
 
 ## Technologies used
