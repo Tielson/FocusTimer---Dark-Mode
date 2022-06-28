@@ -30,10 +30,10 @@
 - [HTML5]
 - [CSS3]
 - [Javascript]
- clean code
- imperative code
- call back
- refactoring
+ clean code.
+ imperative code.
+ call back.
+ refactoring.
 
 ## Tech Stack
 <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
